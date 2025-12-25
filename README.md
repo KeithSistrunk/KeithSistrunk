@@ -1,6 +1,6 @@
 # <a href="https://www.linkedin.com/in/keith-sistrunk-aa277513/">Keith Sistrunk</a>'s IT and Cybersecurity Project Portfolio 🔐
 
-I'm passionate about cybersecurity and enjoy tackling complex challenges through hands-on projects. From vulnerability management to threat detection, these projects allow me to dive deep into the ever-evolving landscape of cybersecurity. Please feel free to check them out and see the work I’ve put into enhancing security operations and processes!
+I'm a cybersecurity engineer who prefers building to just reading. My projects focus on the "messy" side of the job: hardening systems, fine-tuning detections, and managing vulnerabilities. Take a look at my work to see how I approach modern security operations.
 
 
 ## ⚠️ Vulnerability Management Projects
