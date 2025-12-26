@@ -7,7 +7,7 @@ I'm a cybersecurity engineer who prefers building to just reading. My projects f
 
 - **[Vulnerability Management Program Implementation](https://github.com/KeithSistrunk/Vulnerability-Management-Program)**
 
-## 🚨 Threat Hunting and Security Operations
+## :detective: Threat Hunting and Security Operations
 
 - **[Threat Hunting Scenario (Tor Browser Usage)](https://github.com/keithsistrunk/threat-hunting-scenario-tor)**
 
