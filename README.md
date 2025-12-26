@@ -1,4 +1,4 @@
-# <a href="https://www.linkedin.com/in/keith-sistrunk-aa277513/">Keith Sistrunk</a>'s IT and Cybersecurity Project Portfolio 🔐
+# <a href="https://www.linkedin.com/in/keith-sistrunk-aa277513/">Keith Sistrunk</a>'s IT and Cybersecurity Project Portfolio :shield:🔐
 
 I'm a cybersecurity engineer who prefers building to just reading. My projects focus on the "messy" side of the job: hardening systems, fine-tuning detections, and managing vulnerabilities. Take a look at my work to see how I approach modern security operations.
 
