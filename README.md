@@ -11,6 +11,10 @@ I'm a cybersecurity engineer who prefers building to just reading. My projects f
 
 - **[Threat Hunting Scenario (Tor Browser Usage)](https://github.com/keithsistrunk/threat-hunting-scenario-tor)**
 
+## ⚠️ Security Technical Implementation Guides
+
+- **[(STIGs)](https://github.com/KeithSistrunk/lognpacific/tree/main/STIGS)**
+
 <hr/>
 
 ## 🤳 Connect With Me
