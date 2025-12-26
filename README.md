@@ -3,7 +3,7 @@
 I'm a cybersecurity engineer who prefers building to just reading. My projects focus on the "messy" side of the job: hardening systems, fine-tuning detections, and managing vulnerabilities. Take a look at my work to see how I approach modern security operations.
 
 
-## ⚠️ Vulnerability Management Projects
+## :hammer_and_wrench: Vulnerability Management Projects
 
 - **[Vulnerability Management Program Implementation](https://github.com/KeithSistrunk/Vulnerability-Management-Program)**
 
