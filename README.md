@@ -1,32 +1,57 @@
-# <a href="https://www.linkedin.com/in/keith-sistrunk-aa277513/">Keith Sistrunk</a>'s IT and Cybersecurity Project Portfolio :shield:🔐
+# Keith Sistrunk — AI Security & Vulnerability Management 🛡️
 
-I'm a cybersecurity engineer who prefers building to just reading. My projects focus on the "messy" side of the job: hardening systems, fine-tuning detections, and managing vulnerabilities. Take a look at my work to see how I approach modern security operations.
+> Network Security Engineer | AI/RAG Security | OWASP LLM Top 10 | Vulnerability Management
 
+I build security systems and the AI tools that help defend them. 10+ years across Cisco, Palo Alto, FortiGate, and Zscaler — now working at the intersection of AI and security operations.
 
-## :hammer_and_wrench: Vulnerability Management Projects
+---
 
-- **[Vulnerability Management Program Implementation](https://github.com/KeithSistrunk/Vulnerability-Management-Program)**
+## 🤖 AI Security Projects
 
-## :detective: Threat Hunting and Security Operations
+### [AuditIQ — CMMC Level 1 RAG Evidence Assistant](https://github.com/KeithSistrunk/auditiq)
+[![Live App](https://img.shields.io/badge/Live%20App-auditiq--cmmc.streamlit.app-1565c0?style=flat&logo=streamlit)](https://auditiq-cmmc.streamlit.app)
+[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat&logo=python&logoColor=white)](https://python.org)
+[![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o-412991?style=flat&logo=openai)](https://openai.com)
+[![OWASP LLM](https://img.shields.io/badge/OWASP%20LLM-10%2F10%20Mitigated-2e7d32?style=flat)](https://owasp.org)
 
-- **[Threat Hunting Scenario (Tor Browser Usage)](https://github.com/keithsistrunk/threat-hunting-scenario-tor)**
+AI-powered compliance evidence assistant for CMMC Level 1 self-assessment preparation. Uses RAG (LlamaIndex + OpenAI) to let teams query audit evidence in plain English, identify control gaps across all 17 practices, and generate audit-ready outputs for human review.
 
-## :white_check_mark: Security Technical Implementation Guides
+- ✅ Full OWASP LLM Top 10 coverage — all 10 risks mitigated
+- ✅ Prompt injection detection — 22 known attack patterns blocked
+- ✅ File integrity monitoring via SHA-256 hashing
+- ✅ Persistent audit logging via Supabase
+- ✅ CI/CD via GitHub → Streamlit Cloud
 
-- **[(STIGs)](https://github.com/KeithSistrunk/lognpacific/tree/main/STIGS)**
+---
 
-<hr/>
+### [RedScope AI — OWASP Web Security Red Team Tool](https://github.com/KeithSistrunk)
+AI-powered red team application built to audit web applications against the OWASP Top 10. Used to identify and confirm a live XSS vulnerability (OWASP A03:2021) in AuditIQ production — demonstrating a complete offensive/defensive AI security workflow. Built as a class project in an AI security engineering program.
 
-## 🤳 Connect With Me
+---
 
-[<img align="left" alt="___________ | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
+## 🔍 Vulnerability Management
 
-[twitter]: https://twitter.com/___________
-[youtube]: https://www.youtube.com/c/___________
-[instagram]: https://www.instagram.com/___________
-[linkedin]: https://linkedin.com/in/keith-sistrunk/?trk=opento_sprofile_topcard
+### [Vulnerability Management Program](https://github.com/KeithSistrunk/Vulnerability-Management-Program)
+[![Tenable](https://img.shields.io/badge/Tenable-Enterprise-00AEEF?style=flat)](https://tenable.com)
+[![Python](https://img.shields.io/badge/Python-Automation-3776AB?style=flat&logo=python&logoColor=white)](https://python.org)
 
-<!--
-<img width="35" alt="image" src="https://github.com/user-attachments/assets/2f41c7cd-5ea8-4475-b451-a37161b6c3fb"> 
-<img width="35" alt="image" src="https://github.com/user-attachments/assets/77649969-9910-4994-8b96-74a116cfb2a8">
--->
+End-to-end VM pipeline built against a live Tenable enterprise instance. CVE ingestion, CVSS/EPSS/KEV risk scoring, automated remediation package generation, Excel dashboard output.
+
+---
+
+## 🕵️ Threat Hunting & Security Operations
+
+- [Threat Hunting Scenario (Tor Browser Usage)](https://github.com/KeithSistrunk/threat-hunting-scenario-tor)
+
+---
+
+## 🛡️ Security Technical Implementation
+
+- [STIGs Automation](https://github.com/KeithSistrunk/Automation) — PowerShell-based STIG remediation (205 → 23 findings)
+
+---
+
+## 🔗 Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-keith--sistrunk-0077B5?style=flat&logo=linkedin)](https://linkedin.com/in/keith-sistrunk)
+[![AuditIQ Live](https://img.shields.io/badge/AuditIQ-Live%20Demo-1565c0?style=flat&logo=streamlit)](https://auditiq-cmmc.streamlit.app)
