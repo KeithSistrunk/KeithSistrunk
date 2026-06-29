@@ -36,8 +36,8 @@ AI-powered red team application built to audit web applications against the OWAS
 [![Live Demo](https://img.shields.io/badge/Live_Demo-Vulnerability_Dashboard-3FD0C9?style=flat-square)](https://keithsistrunk.github.io/Vulnerability-Management-Program/)
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org)
 [![Tenable](https://img.shields.io/badge/Tenable-API-00558C?style=flat-square)](https://www.tenable.com)
-[![Enrichment](https://img.shields.io/badge/Enrichment-KEV_·_EPSS_·_NVD-5BBF8A?style=flat-square)](#)
-[![Scoring](https://img.shields.io/badge/Risk_Scoring-Explainable-A982E8?style=flat-square)](#)
+![Enrichment](https://img.shields.io/badge/Enrichment-KEV_·_EPSS_·_NVD-5BBF8A?style=flat-square)
+![Scoring](https://img.shields.io/badge/Risk_Scoring-Explainable-A982E8?style=flat-square)
 
 End-to-end VM pipeline built against a live Tenable enterprise instance. CVE ingestion, CVSS/EPSS/KEV risk scoring, automated remediation package generation, Excel dashboard output.
 
