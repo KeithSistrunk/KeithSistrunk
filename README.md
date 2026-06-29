@@ -25,7 +25,7 @@ AI-powered compliance evidence assistant for CMMC Level 1 self-assessment prepar
 
 ---
 
-### RedScope AI — OWASP Web Security Red Team Tool
+### 🎯 RedScope AI — OWASP Web Security Red Team Tool
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat&logo=python&logoColor=white)](https://python.org)
 [![OpenAI](https://img.shields.io/badge/LLM-OpenAI_API-412991?style=flat&logo=openai)](https://openai.com)
 [![Streamlit](https://img.shields.io/badge/UI-Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)](https://streamlit.io)
@@ -92,7 +92,7 @@ PowerShell automation that hardens Windows endpoints against DISA STIG baselines
 - ✅ PowerShell-based and repeatable across hosts
 - ✅ Maps to RMF / continuous-monitoring workflows (hardening baselines, POA&M)
 
-### Cisco IOS Hardening Checker
+### 🔒 Cisco IOS Hardening Checker
 [![Cisco](https://img.shields.io/badge/Cisco-IOS_·_IOS--XE-1BA0D7?style=flat-square&logo=cisco&logoColor=white)](https://www.cisco.com)
 [![Python](https://img.shields.io/badge/Python-stdlib_only-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org)
 [![CMMC / STIG](https://img.shields.io/badge/Baseline-CMMC_·_STIG-00558C?style=flat-square)](https://public.cyber.mil/stigs/)
