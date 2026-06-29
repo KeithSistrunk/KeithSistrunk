@@ -26,6 +26,8 @@ AI-powered compliance evidence assistant for CMMC Level 1 self-assessment prepar
 ---
 
 ### [RedScope AI — OWASP Web Security Red Team Tool](https://github.com/KeithSistrunk)
+- 
+AI-powered red team application built to audit web applications against the OWASP Top 10. Used to identify and confirm a live XSS vulnerability (OWASP A03:2021) in AuditIQ production — demonstrating a complete offensive/defensive AI security workflow. Built as a class project in an AI security engineering program.
 
 - ✅ Found a live XSS in a production app — real finding against AuditIQ, not a lab target
 - ✅ Agentic AI red-team scanner — autonomous [recon → test → report] workflow
@@ -33,8 +35,6 @@ AI-powered compliance evidence assistant for CMMC Level 1 self-assessment prepar
 - ✅ Built on [LLM/model — e.g. GPT-4o / Gemini]
 - ✅ Evidence-based output — every finding backed by the raw request/response
 - ✅ [Safe-mode / read-only by default — if it has guardrails]
-- 
-AI-powered red team application built to audit web applications against the OWASP Top 10. Used to identify and confirm a live XSS vulnerability (OWASP A03:2021) in AuditIQ production — demonstrating a complete offensive/defensive AI security workflow. Built as a class project in an AI security engineering program.
 
 ---
 
@@ -47,14 +47,15 @@ AI-powered red team application built to audit web applications against the OWAS
 [![Enrichment](https://img.shields.io/badge/Enrichment-KEV_·_EPSS_·_NVD-5BBF8A?style=flat-square)](https://github.com/KeithSistrunk/Vulnerability-Management-Program#4-system-architecture)
 [![Scoring](https://img.shields.io/badge/Risk_Scoring-Explainable-A982E8?style=flat-square)](https://github.com/KeithSistrunk/Vulnerability-Management-Program#5-the-risk-scoring-model)
 
+
+End-to-end VM pipeline built against a live Tenable enterprise instance. CVE ingestion, CVSS/EPSS/KEV risk scoring, automated remediation package generation, Excel dashboard output.
+
 - ✅ Live Tenable API ingestion — no manual CSV exports
 - ✅ Threat-intel enrichment — CISA KEV · EPSS · NVD on every CVE
 - ✅ Explainable weighted risk scoring — every point auditable
 - ✅ Severity-based SLA assignment — Critical 15d · High 30d · Medium 60d · Low 90d
 - ✅ Secrets in env vars — least-privilege, read-only Tenable key
 - ✅ Real scan data gitignored — public demo runs on synthetic data only
-
-End-to-end VM pipeline built against a live Tenable enterprise instance. CVE ingestion, CVSS/EPSS/KEV risk scoring, automated remediation package generation, Excel dashboard output.
 
 ---
 
