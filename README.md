@@ -25,16 +25,16 @@ AI-powered compliance evidence assistant for CMMC Level 1 self-assessment prepar
 
 ---
 
-### [RedScope AI — OWASP Web Security Red Team Tool](https://github.com/KeithSistrunk)
-- 
+### RedScope AI — OWASP Web Security Red Team Tool
+
 AI-powered red team application built to audit web applications against the OWASP Top 10. Used to identify and confirm a live XSS vulnerability (OWASP A03:2021) in AuditIQ production — demonstrating a complete offensive/defensive AI security workflow. Built as a class project in an AI security engineering program.
 
-- ✅ Found a live XSS in a production app — real finding against AuditIQ, not a lab target
-- ✅ Agentic AI red-team scanner — autonomous [recon → test → report] workflow
-- ✅ [Detects: XSS · injection · misconfig — your actual coverage]
-- ✅ Built on [LLM/model — e.g. GPT-4o / Gemini]
-- ✅ Evidence-based output — every finding backed by the raw request/response
-- ✅ [Safe-mode / read-only by default — if it has guardrails]
+- ✅ Found a live XSS in production — real finding against AuditIQ, not a lab target
+- ✅ Agentic AI red-team scanner — LLM guides testing, explains findings, organizes results
+- ✅ OWASP-focused coverage — XSS · SQLi · IDOR / access control · misconfig · exposed files · security headers
+- ✅ Evidence-based reporting — Markdown / PDF / HTML output for manual validation
+- ✅ Authorized-targets-only by design — scope-consent flow, non-destructive checks
+- ✅ Python stack — security checks + HTTP libraries, Streamlit dashboard, LLM via API
 
 ---
 
