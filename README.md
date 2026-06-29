@@ -26,6 +26,11 @@ AI-powered compliance evidence assistant for CMMC Level 1 self-assessment prepar
 ---
 
 ### RedScope AI — OWASP Web Security Red Team Tool
+[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat&logo=python&logoColor=white)](https://python.org)
+[![OpenAI](https://img.shields.io/badge/LLM-OpenAI_API-412991?style=flat&logo=openai)](https://openai.com)
+[![Streamlit](https://img.shields.io/badge/UI-Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)](https://streamlit.io)
+[![OWASP](https://img.shields.io/badge/OWASP-Top%2010-2e7d32?style=flat&logo=owasp&logoColor=white)](https://owasp.org/www-project-top-ten/)
+[![Authorized Only](https://img.shields.io/badge/Scope-Authorized%20Targets%20Only-c62828?style=flat&logo=shield&logoColor=white)](https://owasp.org)
 
 AI-powered red team application built to audit web applications against the OWASP Top 10. Used to identify and confirm a live XSS vulnerability (OWASP A03:2021) in AuditIQ production — demonstrating a complete offensive/defensive AI security workflow. Built as a class project in an AI security engineering program.
 
@@ -61,7 +66,12 @@ End-to-end VM pipeline built against a live Tenable enterprise instance. CVE ing
 
 ## 🕵️ Threat Hunting & Security Operations
 
-- [Threat Hunting Scenario (Tor Browser Usage)](https://github.com/KeithSistrunk/threat-hunting-scenario-tor)
+### [Threat Hunt: Unauthorized Tor Usage](https://github.com/KeithSistrunk/threat-hunting-scenario-tor)
+[![EDR](https://img.shields.io/badge/EDR-Microsoft_Defender-0078D4?style=flat-square&logo=microsoft&logoColor=white)](https://www.microsoft.com/security)
+[![KQL](https://img.shields.io/badge/Query-KQL-512BD4?style=flat-square)](https://learn.microsoft.com/azure/data-explorer/kusto/query/)
+[![Azure Lab](https://img.shields.io/badge/Lab-Azure_Win10-0089D6?style=flat-square&logo=microsoftazure&logoColor=white)](https://azure.microsoft.com)
+
+End-to-end threat hunt detecting unauthorized Tor Browser use on a corporate endpoint, built on a Microsoft Defender for Endpoint cyber range. Reconstructed the full activity chain — download, silent install, execution, and outbound connections to known Tor entry nodes — directly from raw EDR telemetry.
 
 - ✅ Hunted across `DeviceFileEvents`, `DeviceProcessEvents`, and `DeviceNetworkEvents` with custom KQL
 - ✅ Reconstructed the timeline — installer download → silent install → browser launch → Tor node connections
@@ -83,6 +93,7 @@ PowerShell automation that hardens Windows endpoints against DISA STIG baselines
 - ✅ Maps to RMF / continuous-monitoring workflows (hardening baselines, POA&M)
 
 ### Cisco IOS Hardening Checker
+[![Cisco](https://img.shields.io/badge/Cisco-IOS_·_IOS--XE-1BA0D7?style=flat-square&logo=cisco&logoColor=white)](https://www.cisco.com)
 [![Python](https://img.shields.io/badge/Python-stdlib_only-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org)
 [![CMMC / STIG](https://img.shields.io/badge/Baseline-CMMC_·_STIG-00558C?style=flat-square)](https://public.cyber.mil/stigs/)
 
