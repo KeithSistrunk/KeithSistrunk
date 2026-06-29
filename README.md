@@ -1,9 +1,9 @@
 # Keith Sistrunk — AI Security & Vulnerability Management 🛡️
 
 
-> Network Security Engineer | AI/RAG Security | OWASP LLM Top 10 | Vulnerability Management
+> Vulnerability Management | AI/RAG Security | OWASP LLM Top 10 | Network Security Engineer
 
-I build security systems and the AI tools that help defend them. 10+ years across Cisco, Palo Alto, FortiGate, and Zscaler — now working at the intersection of AI and security operations.
+I build security systems and the AI tools that help defend them. 15+ years in IT across Cisco, Palo Alto, and FortiGate, with a focus on vulnerability management and AI security.
 
 ---
 
