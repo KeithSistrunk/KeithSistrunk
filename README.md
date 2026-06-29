@@ -38,7 +38,7 @@ AI-powered red team application built to audit web applications against the OWAS
 
 ---
 
-## 🔍 Vulnerability Management Pipeline
+## 🔍 Automated Vulnerability Management Pipeline
 
 ### [Vulnerability Management Program](https://github.com/KeithSistrunk/Vulnerability-Management-Program)
 [![Live Demo](https://img.shields.io/badge/Live_Demo-Vulnerability_Dashboard-3FD0C9?style=flat-square)](https://keithsistrunk.github.io/Vulnerability-Management-Program/)
