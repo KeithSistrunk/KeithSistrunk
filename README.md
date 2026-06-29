@@ -63,11 +63,34 @@ End-to-end VM pipeline built against a live Tenable enterprise instance. CVE ing
 
 - [Threat Hunting Scenario (Tor Browser Usage)](https://github.com/KeithSistrunk/threat-hunting-scenario-tor)
 
+- ✅ Hunted across `DeviceFileEvents`, `DeviceProcessEvents`, and `DeviceNetworkEvents` with custom KQL
+- ✅ Reconstructed the timeline — installer download → silent install → browser launch → Tor node connections
+- ✅ Surfaced concrete IoCs — portable Tor installer, `tor.exe`, `tor-shopping-list.txt`, known Tor ports
+- ✅ Delivered an audit-ready hunt report with evidence and a notify-management workflow
+
 ---
 
 ## 🛡️ Security Technical Implementation
 
-- [STIGs Automation](https://github.com/KeithSistrunk/Automation) — PowerShell-based STIG remediation (205 → 23 findings)
+### [STIG Remediation Automation](https://github.com/KeithSistrunk/Automation)
+[![PowerShell](https://img.shields.io/badge/PowerShell-STIG_Remediation-5391FE?style=flat-square&logo=powershell&logoColor=white)](https://learn.microsoft.com/powershell/)
+[![DISA STIG](https://img.shields.io/badge/Baseline-DISA_STIG-00558C?style=flat-square)](https://public.cyber.mil/stigs/)
+
+PowerShell automation that hardens Windows endpoints against DISA STIG baselines — driving a single host from 205 open findings down to 23 in one pass.
+
+- ✅ Automated STIG remediation — 205 → 23 findings (~89% reduction)
+- ✅ PowerShell-based and repeatable across hosts
+- ✅ Maps to RMF / continuous-monitoring workflows (hardening baselines, POA&M)
+
+### Cisco IOS Hardening Checker
+[![Python](https://img.shields.io/badge/Python-stdlib_only-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org)
+[![CMMC / STIG](https://img.shields.io/badge/Baseline-CMMC_·_STIG-00558C?style=flat-square)](https://public.cyber.mil/stigs/)
+
+Read-only Python auditor that flags CMMC / STIG-style misconfigurations in a Cisco IOS / IOS-XE config — weak password encryption, missing session timeouts, plaintext management (Telnet/HTTP), absent logging, and default SNMP communities — with line-referenced findings and remediation guidance.
+
+- ✅ 12 hardening controls checked, each with PASS / WARN / FAIL and a fix
+- ✅ Secrets auto-redacted in output; non-zero exit code for CI gating
+- ✅ Stdlib only, no device connection — parses an offline config export
 
 ---
 
