@@ -30,6 +30,38 @@ End-to-end VM pipeline built against a live Tenable enterprise instance. CVE ing
 
 ## 🤖 AI Security Projects
 
+### [Honeypot — LLM Deception Defense System](https://github.com/KeithSistrunk/honeypot)
+[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat&logo=python&logoColor=white)](https://python.org)
+[![Ollama](https://img.shields.io/badge/LLM-Ollama-000000?style=flat&logo=ollama&logoColor=white)](https://ollama.com)
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
+[![OWASP LLM](https://img.shields.io/badge/OWASP%20LLM-2025-2e7d32?style=flat)](https://owasp.org)
+[![Repo](https://img.shields.io/badge/Repo-Public%20Showcase-6a1b9a?style=flat&logo=github&logoColor=white)](https://github.com/KeithSistrunk/honeypot)
+
+An LLM honeypot that detects hostile prompts and silently routes attackers into an isolated shadow environment while real users reach the real model untouched. Built on a suspicion-scoring gate; tested by pointing my own red-team tool at it.
+
+- ✅ 91% attack catch rate, 0% false positives — measured against a live red-team run
+- ✅ Session-level rerouting — a user who turns hostile mid-session is flipped to shadow permanently
+- ✅ Tiered scoring — canary triggers instant-shadow, injection/priv-esc accumulate, weak signals never fire alone
+- ✅ Live dashboard — two-tab console (attack + monitor) with real-time flow diagram and session cards
+- ✅ OWASP LLM Top 10 (2025) assessed — 2 Medium findings hardened, regression-tested
+
+---
+
+### [RedOwl — Agentic LLM Red-Team CLI](https://github.com/KeithSistrunk/redowl)
+[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat&logo=python&logoColor=white)](https://python.org)
+[![Architecture](https://img.shields.io/badge/Architecture-Two--LLM-512BD4?style=flat)](https://github.com/KeithSistrunk/redowl)
+[![Ollama](https://img.shields.io/badge/LLM-Ollama-000000?style=flat&logo=ollama&logoColor=white)](https://ollama.com)
+[![Repo](https://img.shields.io/badge/Repo-Public%20Showcase-6a1b9a?style=flat&logo=github&logoColor=white)](https://github.com/KeithSistrunk/redowl)
+
+An agentic red-team tool that autonomously attacks LLM chatbots to find where they break, using a two-LLM design — a reasoning model picks and generates attacks, a target model gets tested, an evaluator judges the result.
+
+- ✅ Three-arm experiment — measured fixed vs AI-generated attacks: 45% → 31% → 11% success, showing more model freedom produced fewer successful attacks
+- ✅ Two-LLM architecture — reasoning, target, and evaluator roles separated
+- ✅ Honest error bars — findings reported with run-to-run variance, not cherry-picked
+- ✅ Feeds the Honeypot — its attack pool became the honeypot's detection signatures
+
+---
+
 ### [AuditIQ — CMMC Level 1 RAG Evidence Assistant](https://github.com/KeithSistrunk/auditiq)
 [![Live App](https://img.shields.io/badge/Live%20App-auditiq--cmmc.streamlit.app-1565c0?style=flat&logo=streamlit)](https://auditiq-cmmc.streamlit.app)
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat&logo=python&logoColor=white)](https://python.org)
