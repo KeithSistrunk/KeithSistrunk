@@ -7,6 +7,27 @@ I build security systems and the AI tools that help defend them. 15+ years in IT
 
 ---
 
+## 🔍 Automated Vulnerability Management Pipeline
+
+### [Vulnerability Management Program](https://github.com/KeithSistrunk/Vulnerability-Management-Program)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Vulnerability_Dashboard-3FD0C9?style=flat-square)](https://keithsistrunk.github.io/Vulnerability-Management-Program/)
+[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org)
+[![Tenable](https://img.shields.io/badge/Tenable-API-00558C?style=flat-square)](https://www.tenable.com)
+[![Enrichment](https://img.shields.io/badge/Enrichment-KEV_·_EPSS_·_NVD-5BBF8A?style=flat-square)](https://github.com/KeithSistrunk/Vulnerability-Management-Program#4-system-architecture)
+[![Scoring](https://img.shields.io/badge/Risk_Scoring-Explainable-A982E8?style=flat-square)](https://github.com/KeithSistrunk/Vulnerability-Management-Program#5-the-risk-scoring-model)
+
+
+End-to-end VM pipeline built against a live Tenable enterprise instance. CVE ingestion, CVSS/EPSS/KEV risk scoring, automated remediation package generation, Excel dashboard output.
+
+- ✅ Live Tenable API ingestion — no manual CSV exports
+- ✅ Threat-intel enrichment — CISA KEV · EPSS · NVD on every CVE
+- ✅ Explainable weighted risk scoring — every point auditable
+- ✅ Severity-based SLA assignment — Critical 15d · High 30d · Medium 60d · Low 90d
+- ✅ Secrets in env vars — least-privilege, read-only Tenable key
+- ✅ Real scan data gitignored — public demo runs on synthetic data only
+
+---
+
 ## 🤖 AI Security Projects
 
 ### [AuditIQ — CMMC Level 1 RAG Evidence Assistant](https://github.com/KeithSistrunk/auditiq)
@@ -40,27 +61,6 @@ AI-powered red team application built to audit web applications against the OWAS
 - ✅ Evidence-based reporting — Markdown / PDF / HTML output for manual validation
 - ✅ Authorized-targets-only by design — scope-consent flow, non-destructive checks
 - ✅ Python stack — security checks + HTTP libraries, Streamlit dashboard, LLM via API
-
----
-
-## 🔍 Automated Vulnerability Management Pipeline
-
-### [Vulnerability Management Program](https://github.com/KeithSistrunk/Vulnerability-Management-Program)
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Vulnerability_Dashboard-3FD0C9?style=flat-square)](https://keithsistrunk.github.io/Vulnerability-Management-Program/)
-[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org)
-[![Tenable](https://img.shields.io/badge/Tenable-API-00558C?style=flat-square)](https://www.tenable.com)
-[![Enrichment](https://img.shields.io/badge/Enrichment-KEV_·_EPSS_·_NVD-5BBF8A?style=flat-square)](https://github.com/KeithSistrunk/Vulnerability-Management-Program#4-system-architecture)
-[![Scoring](https://img.shields.io/badge/Risk_Scoring-Explainable-A982E8?style=flat-square)](https://github.com/KeithSistrunk/Vulnerability-Management-Program#5-the-risk-scoring-model)
-
-
-End-to-end VM pipeline built against a live Tenable enterprise instance. CVE ingestion, CVSS/EPSS/KEV risk scoring, automated remediation package generation, Excel dashboard output.
-
-- ✅ Live Tenable API ingestion — no manual CSV exports
-- ✅ Threat-intel enrichment — CISA KEV · EPSS · NVD on every CVE
-- ✅ Explainable weighted risk scoring — every point auditable
-- ✅ Severity-based SLA assignment — Critical 15d · High 30d · Medium 60d · Low 90d
-- ✅ Secrets in env vars — least-privilege, read-only Tenable key
-- ✅ Real scan data gitignored — public demo runs on synthetic data only
 
 ---
 
