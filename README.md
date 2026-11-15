@@ -1,13 +1,60 @@
-# Keith Sistrunk — AI Security & Vulnerability Management 🛡️
+# Keith Sistrunk — Network Security Engineer 🛡️
 
+> Palo Alto (PAN-OS) | FortiGate | Cisco | Zscaler | Azure Hybrid Connectivity | Microsoft Sentinel
 
-> Vulnerability Management | AI/RAG Security | OWASP LLM Top 10 | Network Security Engineer
+Network security engineer with 15+ years in IT across Cisco, Palo Alto, FortiGate, and Zscaler environments. Firewall policy, site-to-site and remote-access VPN, BGP, and log integration — plus vulnerability management and AI security work.
 
-I build security systems and the AI tools that help defend them. 15+ years in IT across Cisco, Palo Alto, and FortiGate, with a focus on vulnerability management and AI security.
+**Core skills:** App-ID / security policy · NAT · SSL decryption · IPsec (IKEv2) · GlobalProtect · BGP · DMVPN · PAN-OS XML API (Python) · Azure VPN Gateway · Sentinel / KQL · STIG hardening · Tenable
 
 ---
 
-## 🔍 Automated Vulnerability Management Pipeline
+## 🔥 Firewall & Network Security
+
+### [PA-440 to Azure: Firewall, VPN, BGP and Sentinel](https://github.com/KeithSistrunk/palo-alto-to-azure)
+[![PAN-OS](https://img.shields.io/badge/PAN--OS-11.1-FA582D?style=flat-square&logo=paloaltonetworks&logoColor=white)](https://github.com/KeithSistrunk/palo-alto-to-azure)
+[![Azure](https://img.shields.io/badge/Azure-VPN_Gateway-0089D6?style=flat-square&logo=microsoftazure&logoColor=white)](https://github.com/KeithSistrunk/palo-alto-to-azure)
+[![BGP](https://img.shields.io/badge/Routing-eBGP_over_IPsec-5BBF8A?style=flat-square)](https://github.com/KeithSistrunk/palo-alto-to-azure/blob/main/docs/06-bgp-over-vpn.md)
+[![Sentinel](https://img.shields.io/badge/SIEM-Microsoft_Sentinel-0078D4?style=flat-square&logo=microsoft&logoColor=white)](https://github.com/KeithSistrunk/palo-alto-to-azure/blob/main/docs/07-sentinel.md)
+[![Python](https://img.shields.io/badge/Python-PAN--OS_XML_API-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/KeithSistrunk/palo-alto-to-azure/blob/main/docs/05-api-automation.md)
+
+Physical PA-440 connected to an Azure hub. Seven labs, each with the build, validation, deliberate break-and-fix tests, and real log evidence.
+
+- ✅ App-ID policy from default deny — zones, DHCP, source NAT, routing
+- ✅ SSL forward proxy decryption — forward trust/untrust CAs, profiles, exclusions
+- ✅ Site-to-site IKEv2 VPN to Azure — NAT-T behind NAT, route-based tunnel, Phase 1/2 troubleshooting
+- ✅ eBGP inside IPsec — floating static backup, inbound import filter, break-and-fix
+- ✅ GlobalProtect remote access — portal, gateway, certificates, split tunnel
+- ✅ PA-440 logs to Microsoft Sentinel — CEF over IPsec, Azure Monitor Agent, KQL, analytics rule tuning
+- ✅ PAN-OS XML API automation — read-only rule audit, scripted change with partial commit, least-privilege keys
+
+---
+
+## 🔒 Hardening & Compliance
+
+### [STIG Remediation Automation](https://github.com/KeithSistrunk/Automation)
+[![PowerShell](https://img.shields.io/badge/PowerShell-STIG_Remediation-5391FE?style=flat-square&logo=powershell&logoColor=white)](https://learn.microsoft.com/powershell/)
+[![DISA STIG](https://img.shields.io/badge/Baseline-DISA_STIG-00558C?style=flat-square)](https://public.cyber.mil/stigs/)
+
+PowerShell automation that hardens Windows endpoints against DISA STIG baselines — driving a single host from 205 open findings down to 23 in one pass.
+
+- ✅ Automated STIG remediation — 205 → 23 findings (~89% reduction)
+- ✅ PowerShell-based and repeatable across hosts
+- ✅ Maps to RMF / continuous-monitoring workflows (hardening baselines, POA&M)
+
+### 🔒 Cisco IOS Hardening Checker
+[![Cisco](https://img.shields.io/badge/Cisco-IOS_·_IOS--XE-1BA0D7?style=flat-square&logo=cisco&logoColor=white)](https://www.cisco.com)
+[![Python](https://img.shields.io/badge/Python-stdlib_only-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org)
+[![CMMC / STIG](https://img.shields.io/badge/Baseline-CMMC_·_STIG-00558C?style=flat-square)](https://public.cyber.mil/stigs/)
+
+Read-only Python auditor that flags CMMC / STIG-style misconfigurations in a Cisco IOS / IOS-XE config — weak password encryption, missing session timeouts, plaintext management (Telnet/HTTP), absent logging, and default SNMP communities — with line-referenced findings and remediation guidance.
+
+- ✅ 12 hardening controls checked, each with PASS / WARN / FAIL and a fix
+- ✅ Secrets auto-redacted in output; non-zero exit code for CI gating
+- ✅ Stdlib only, no device connection — parses an offline config export
+
+---
+
+## 🔍 Vulnerability Management
 
 ### [Vulnerability Management Program](https://github.com/KeithSistrunk/Vulnerability-Management-Program)
 [![Live Demo](https://img.shields.io/badge/Live_Demo-Vulnerability_Dashboard-3FD0C9?style=flat-square)](https://keithsistrunk.github.io/Vulnerability-Management-Program/)
@@ -109,31 +156,6 @@ End-to-end threat hunt detecting unauthorized Tor Browser use on a corporate end
 - ✅ Reconstructed the timeline — installer download → silent install → browser launch → Tor node connections
 - ✅ Surfaced concrete IoCs — portable Tor installer, `tor.exe`, `tor-shopping-list.txt`, known Tor ports
 - ✅ Delivered an audit-ready hunt report with evidence and a notify-management workflow
-
----
-
-## 🛡️ Security Technical Implementation
-
-### [STIG Remediation Automation](https://github.com/KeithSistrunk/Automation)
-[![PowerShell](https://img.shields.io/badge/PowerShell-STIG_Remediation-5391FE?style=flat-square&logo=powershell&logoColor=white)](https://learn.microsoft.com/powershell/)
-[![DISA STIG](https://img.shields.io/badge/Baseline-DISA_STIG-00558C?style=flat-square)](https://public.cyber.mil/stigs/)
-
-PowerShell automation that hardens Windows endpoints against DISA STIG baselines — driving a single host from 205 open findings down to 23 in one pass.
-
-- ✅ Automated STIG remediation — 205 → 23 findings (~89% reduction)
-- ✅ PowerShell-based and repeatable across hosts
-- ✅ Maps to RMF / continuous-monitoring workflows (hardening baselines, POA&M)
-
-### 🔒 Cisco IOS Hardening Checker
-[![Cisco](https://img.shields.io/badge/Cisco-IOS_·_IOS--XE-1BA0D7?style=flat-square&logo=cisco&logoColor=white)](https://www.cisco.com)
-[![Python](https://img.shields.io/badge/Python-stdlib_only-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org)
-[![CMMC / STIG](https://img.shields.io/badge/Baseline-CMMC_·_STIG-00558C?style=flat-square)](https://public.cyber.mil/stigs/)
-
-Read-only Python auditor that flags CMMC / STIG-style misconfigurations in a Cisco IOS / IOS-XE config — weak password encryption, missing session timeouts, plaintext management (Telnet/HTTP), absent logging, and default SNMP communities — with line-referenced findings and remediation guidance.
-
-- ✅ 12 hardening controls checked, each with PASS / WARN / FAIL and a fix
-- ✅ Secrets auto-redacted in output; non-zero exit code for CI gating
-- ✅ Stdlib only, no device connection — parses an offline config export
 
 ---
 
