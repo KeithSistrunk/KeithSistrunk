@@ -6,6 +6,12 @@ Network security engineer with 15+ years in IT across Cisco, Palo Alto, FortiGat
 
 **Core skills:** App-ID / security policy · NAT · SSL decryption · IPsec (IKEv2) · GlobalProtect · BGP · DMVPN · PAN-OS XML API (Python) · Azure VPN Gateway · Sentinel / KQL · STIG hardening · Tenable
 
+## 🎓 Certifications
+
+<a href="https://verify.comptia.org"><img src="assets/comptia-security-plus.jpg" alt="CompTIA Security+" width="100"></a>
+
+**CompTIA Security+** (SY0-701) · valid through Sep 2027 · [verify](https://verify.comptia.org)
+
 ---
 
 ## 🔥 Firewall & Network Security
