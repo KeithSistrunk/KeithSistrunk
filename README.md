@@ -12,6 +12,8 @@ Network security engineer with 15+ years in IT across Cisco, Palo Alto, FortiGat
 
 **CompTIA Security+** (SY0-701) · valid through Sep 2027 · [verify](https://verify.comptia.org)
 
+[![Fortinet FCP](https://img.shields.io/badge/Fortinet-FCP_Network_Security-EE3124?style=flat-square&logo=fortinet&logoColor=white)](https://www.fortinet.com/training-certification)
+
 ---
 
 ## 🔥 Firewall & Network Security
